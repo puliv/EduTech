@@ -83,3 +83,5 @@ proceso de inscripción.
 Estas acciones aseguran que el sistema cubra todas las necesidades operativas de
 EduTech Innovators SPA, tanto a nivel interno como en su interacción con los
 clientes, facilitando una gestión eficiente y una experiencia de usuario satisfactoria.
+
+![Modelo Entidad-Relacion](/src/main/resources/img/modelo-edutech-puli.drawio.svg)
