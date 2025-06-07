@@ -1,6 +1,6 @@
-Caso de Estudio: Transformación Digital de " EduTech Innovators SPA "
+#Caso de Estudio: Transformación Digital de " EduTech Innovators SPA "
 
-Introducción
+##Introducción
 EduTech Innovators SPA es una empresa chilena emergente dedicada a la creación
 y distribución de plataformas educativas en línea. La empresa comenzó con una
 oficina en Providencia, Santiago, y debido a su éxito en la provisión de cursos
@@ -10,20 +10,19 @@ usuarios, el sistema monolítico actual de EduTech Innovators SPA ha comenzado a
 presentar problemas de rendimiento y disponibilidad, afectando negativamente la
 experiencia del usuario y la operación diaria.
 
-Objetivo del Caso
+##Objetivo del Caso
 El objetivo de este caso de estudio es desarrollar una solución tecnológica que
 permita a EduTech Innovators SPA superar las limitaciones de su sistema monolítico
 actual y soportar su continuo crecimiento. El proyecto se desarrollará en tres partes
 a lo largo de las evaluaciones parciales del semestre, culminando en una
 presentación final donde se defenderá la solución propuesta.
 
-2
+##2 Acciones del Sistema para EduTech Innovators SPA
 
-Acciones del Sistema para EduTech Innovators SPA
+###Perfiles del sistema
 
-Perfiles del sistema
+####Administrador del Sistema
 
-Administrador del Sistema
 • Gestionar Usuarios: Crear, actualizar, desactivar y eliminar cuentas de
 usuarios del sistema.
 • Configurar Permisos: Asignar y modificar permisos de acceso a diferentes
@@ -33,7 +32,8 @@ sobre posibles fallos y monitorizar el rendimiento.
 • Respaldar y Restaurar Datos: Realizar copias de seguridad periódicas y
 restaurar datos en caso de pérdida o fallo.
 
-Gerente de Cursos
+####Gerente de Cursos
+
 • Gestionar Cursos: Crear, actualizar y eliminar cursos del catálogo.
 • Generar Reportes: Crear reportes sobre la inscripción y rendimiento de los
 cursos.
@@ -42,7 +42,8 @@ cursos.
 • Evaluar Contenido: Revisar y aprobar el contenido de los cursos antes de su
 publicación.
 
-Gerente de Cursos
+####Gerente de Cursos
+
 • Crear y Actualizar Contenido: Desarrollar y subir material didáctico y
 actualizaciones.
 • Gestionar Evaluaciones: Crear, actualizar y corregir evaluaciones y pruebas.
@@ -51,9 +52,9 @@ a través de foros y chats.
 • Monitorear Progreso: Seguir el progreso de los estudiantes inscritos en sus
 cursos.
 
-3
+##3 Logística de Soporte
 
-Logística de Soporte
+
 • Gestionar Incidencias: Recibir, asignar y resolver incidencias técnicas
 reportadas por usuarios.
 • Optimizar Recursos: Asegurar que los recursos del sistema estén
@@ -63,7 +64,9 @@ incidencias reportadas.
 • Gestionar Proveedores: Mantener y actualizar la información de proveedores
 de recursos tecnológicos y servicios.
 
-Acciones de los Clientes vía Web
+###Acciones de los Clientes vía Web
+
+
 • Crear Cuenta: Registrarse en la plataforma web proporcionando la
 información necesaria.
 • Iniciar Sesión: Acceder a la cuenta utilizando las credenciales de usuario.

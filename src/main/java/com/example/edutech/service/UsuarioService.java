@@ -32,20 +32,21 @@ public class UsuarioService {
     return usuarioRepository.findAll();
   }
 
-  // public String asignarRolAUsuario(Integer usuarioId, Integer rolId) {
-  //   Usuario usuario = usuarioRepository.findById(usuarioId).orElse(null);
-  //   if (usuario == null) {
-  //     return "Usuario no encontrado";
-  //   }
+  public String asignarRolAUsuario(Integer usuarioId, Integer rolId) {
+    Usuario usuario = usuarioRepository.findById(usuarioId).orElse(null);
+    Rol rol = rolRepository.findById(rolId).orElse(null);
 
-  //   Rol rol = rolRepository.findById(rolId).orElse(null);
-  //   if (rol == null) {
-  //     return "Rol no encontrado";
-  //   }
+    if (usuario == null) {
+      return "Usuario no encontrado";
+    }
 
-  //   usuario.getRoles().add(rol);
-  //   usuarioRepository.save(usuario);
-  //   return "Rol asignado exitosamente al usuario";
-  // }
+    if (rol == null) {
+      return "Rol no encontrado";
+    }
+
+    // usuario.getRol().add(rol);
+    usuarioRepository.save(usuario);
+    return "Rol asignado exitosamente al usuario";
+  }
+
 }
-
